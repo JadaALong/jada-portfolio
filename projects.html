@@ -113,6 +113,38 @@
       color: white;
       box-shadow: 0 0 15px rgba(185,164,255,0.7);
     }
+/* QR Code Section */
+    .qr-section {
+      text-align: center;
+      margin-top: 3rem;
+      padding: 2rem;
+      background-color: #20222a;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(185,164,255,0.15);
+    }
+    
+    .qr-section h2 {
+      color: #b9a4ff;
+      margin-bottom: 0.5rem;
+    }
+    
+    .qr-section p {
+      color: #ccc;
+      margin-bottom: 1.5rem;
+    }
+    
+    .qr-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 12px;
+      box-shadow: 0 0 25px rgba(185,164,255,0.4);
+      transition: 0.3s ease;
+    }
+    
+    .qr-image:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 35px rgba(185,164,255,0.8);
+    }
 
   </style>
 </head>
@@ -178,6 +210,14 @@
 
     </div>
   </div>
+      <!-- ======================
+              QR CODE SECTION
+      ====================== -->
+      <div class="qr-section">
+        <h2>Scan to Visit My Website</h2>
+        <p>Quick access to my portfolio — great for mobile users!</p>
+        <img src="images/jada_portfolio_qr.png" alt="QR code to portfolio" class="qr-image">
+      </div>
 
   <footer>
     © 2025 Jada Long
